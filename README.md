@@ -19,7 +19,7 @@
 
 * **RecvBuffer, SendBuffer**: Session에서 사용하는 버퍼를 구현한 클래스로 프로젝트에 따라 사용할 버퍼 사이즈를 조절할 수 있습니다.
 
-* **Session**: 클라이언트, 서버가 사용할 Session 인터페이스로 Start, Send, Disconnect함수가 구현되어 있습니다. Start는 **'상대방으로부터 데이터를 받을 준비가 되어있습니다.'**라는 의미로 Receive를 담당하는 함수입니다.
+* **Session**: 클라이언트, 서버가 사용할 Session 인터페이스로 Start, Send, Disconnect함수가 구현되어 있습니다. Start는 **'상대방으로부터 데이터를 받을 준비가 되어있습니다.'** 라는 의미로 Receive를 담당하는 함수입니다.
 
 ### 2. Server
 서버를 담당하는 솔루션으로 main함수는 Program.cs에 있습니다. 내부 게임 로직이나 PacketHandler, Session Event를 정의한 클래스가 있습니다.
